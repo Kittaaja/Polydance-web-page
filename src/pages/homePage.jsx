@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
 import JoinButton from "../components/Other/joinbutton";
 import ScheduleButton from "../components/Other/schedulebutton";
+import WorkshopCard from "../components/Other/workshopcard";
 
 function HomePage() {
   return (
@@ -27,7 +29,7 @@ function HomePage() {
         </div>
 
         <div className="classes-grid">
-          <div className="classes-grid__glow" />
+          <div className="glow"/>
           <article className="classes-card">
             <div className="classes-card__image-wrap">
               <img
@@ -78,6 +80,7 @@ function HomePage() {
           </div>
 
           <div className="teacher-card__content">
+            <div className="glow" style={{ background: 'radial-gradient(circle, rgba(95, 255, 196, 0.2)' }} />
             <p className="p-accent">BREAKING TEACHER</p>
             <h2 className="h2">Victor “Vicious” Sono</h2>
             <p className="p">
@@ -111,6 +114,7 @@ function HomePage() {
 
 
           <div className="teacher-card__content">
+            <div className="glow" style={{ background: 'radial-gradient(circle, rgba(95, 255, 196, 0.2)' }} />
             <p className="p-accent">CONTEMPORARY TEACHER</p>
             <h2 className="h2">Eero Tahkola</h2>
             <p className="p">
@@ -147,9 +151,49 @@ function HomePage() {
         </div>
       </section>
 
-      <section id="workshops" style={{ padding: "120px 24px", minHeight: "100vh" }}>
-        <h1>Workshops</h1>
-        <p>dippadappa</p>
+      <section id="workshops" className="workshops-section">
+        <div className="workshops-header">
+          <h1 className="h1">WORKSHOPS & <span style={{ color: '#5FFFC4' }}>EVENTS</span></h1>
+          <p className="p">Our community in action</p>
+        </div>
+
+        <div className="workshops-grid">
+          <div className="glow"/>
+          <WorkshopCard
+            status="upcoming"
+            image="/workshop-afro.jpeg"
+            title="Afro Dance Workshop"
+            date="MAY 20, 2026"
+            description="With Pauliina Diallo — a vibrant session blending rhythm, movement and cultural expression."
+          />
+          <WorkshopCard
+            status="past"
+            image="/workshop-improvisation-class.jpg"
+            title="Improvisation Class"
+            date="NOVEMBER 7, 2025"
+            description="With Amelie Koerbs — unlocking spontaneous movement through play and floorwork tools."
+          />
+          <WorkshopCard
+            status="past"
+            image="/workshop-rave-break.jpeg"
+            title="Rave x Break"
+            date="MAY 18, 2024"
+            description="With DJ Tauko & AaltoDJ — a high-energy breaking session set to rave-inspired beats."
+          />
+          <WorkshopCard
+            status="past"
+            image="/workshop-shuffle.jpeg"
+            title="Shuffle Workshop"
+            date="MARCH 13, 2024"
+            description="With Julia Piironen — learn fast footwork, transitions, and groove structure."
+          />
+        </div>
+
+        <div className="workshops-actions">
+          <Link to="/workshops" className="workshops-button h4">
+            AND MORE
+          </Link>
+        </div>
       </section>
 
       <section id="board" style={{ padding: "120px 24px", minHeight: "100vh" }}>
