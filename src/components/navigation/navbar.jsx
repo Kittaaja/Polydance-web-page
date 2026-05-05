@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar__inner">
-        <Link to="/" className="navbar__brand">
+        <Link to="/#hero" className="navbar__brand">
           <img src="/logo.png" alt="Logo" className="navbar__logo" />
         </Link>
 

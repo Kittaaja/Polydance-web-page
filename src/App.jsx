@@ -2,7 +2,7 @@ import "./styles.css";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/navigation/navbar";
 import Footer from "./components/navigation/footer";
-import HomePage from "./pages/homePage";
+import HomePage from "./pages/HomePage";
 import TeacherPage from "./pages/teacherPage";
 
 function App() {
