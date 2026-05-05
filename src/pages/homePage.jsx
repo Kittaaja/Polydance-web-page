@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import JoinButton from "../components/Other/joinbutton";
 import ScheduleButton from "../components/Other/schedulebutton";
 import WorkshopCard from "../components/Other/workshopcard";
+import BoardCard from "../components/Other/boardcard";
+import Footer from "../components/navigation/footer";
 
 function HomePage() {
   return (
@@ -16,7 +18,7 @@ function HomePage() {
 
           </p>
           <div className="hero-actions">
-            <JoinButton />
+            <JoinButton text="JOIN NOW"/>
             <ScheduleButton />
           </div>
         </div>
@@ -196,10 +198,43 @@ function HomePage() {
         </div>
       </section>
 
-      <section id="board" style={{ padding: "120px 24px", minHeight: "100vh" }}>
-        <h1>Board</h1>
-        <p>dippadappa</p>
+      <section id="board" className="board-section">
+        <div className="board-header">
+          <h1 className="h1">MEET THE <span style={{ color: '#5FFFC4' }}>BOARD</span></h1>
+          <p className="p">Driving our community forward</p>
+        </div>
+
+        <div className="board-grid">
+          <BoardCard
+            image="/board-veeti.jpg"
+            name="Veeti Kittamaa"
+            title="Chair"
+          />
+          <BoardCard
+            image="/board-jaakko.jpg"
+            name="Jaakko Rapeli"
+            title="Secretary"
+          />
+          <BoardCard
+            image="/board-amelie.jpg"
+            name="Amelie Koerbs"
+            title="Artistic director"
+          />
+          <BoardCard
+            image="/board-ino.jpg"
+            name="Ino Rupisan"
+            title="Marketing person"
+          />
+        </div>
+
       </section>
+      <div className="board-bottom">
+          <h1 className="h1">READY TO <br />
+            <span style={{ color: '#5FFFC4' }}>ELEVATE?</span></h1>
+          <p className="p">Join our community and unlock your potential</p>
+            <JoinButton text="BOOK YOUR FIRST CLASS" />
+      </div>
+      <Footer />
     </main>
   )
 }

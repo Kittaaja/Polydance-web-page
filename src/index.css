@@ -301,7 +301,37 @@ body {
   box-shadow: 0 0 20px rgba(95, 255, 196, 0.25);
 }
 
+.board-section {
+  padding: 120px 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
 
+.board-header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.board-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 28px;
+  justify-items: center;
+}
+
+.board-bottom {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 80px;
+}
 
 
 /* Responsive adjustments */
@@ -343,5 +373,10 @@ body {
 
   .classes-card__image {
     height: 420px;
+  }
+
+  .board-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
   }
 }

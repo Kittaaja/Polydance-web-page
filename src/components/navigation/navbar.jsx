@@ -26,7 +26,7 @@ function Navbar() {
           </a>
         </div>
 
-        <JoinButton />
+        <JoinButton text="JOIN NOW" />
       </div>
     </nav>
   )
