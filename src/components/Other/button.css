@@ -1,0 +1,36 @@
+.join-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #5FFFC4;
+  color: #0A1628;
+  border: none;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+
+
+
+.join-button:hover {
+  box-shadow: 0 0 16px rgba(95, 255, 196, 0.32);
+}
+
+.schedule-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: var(--color-text);
+  border: 3px solid var(--color-accent);
+  padding: 14px 30px;
+  text-decoration: none;
+}
+.schedule-button.h4 {
+  color: var(--color-accent)
+}
+
+.schedule-button:hover {
+  box-shadow: 0 0 16px rgba(95, 255, 196, 0.32);
+}

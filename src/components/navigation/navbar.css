@@ -1,5 +1,6 @@
 .navbar {
-  background: #0A1628;
+  background: rgba(10, 22, 40, 0.8);
+  backdrop-filter: blur(10px);
   color: #FFFFFF;
   padding: 0 24px;
   height: 72px;
@@ -48,24 +49,6 @@
 
 .navbar__link:hover {
   opacity: 0.85;
-}
-
-.navbar__button {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background: #5FFFC4;
-  color: #0A1628;
-  border: none;
-  padding: 14px 30px;
-  text-decoration: none;
-}
-
-
-
-.navbar__button:hover {
-  box-shadow: 0 0 16px rgba(95, 255, 196, 0.32);
 }
 
 @media (max-width: 768px) {

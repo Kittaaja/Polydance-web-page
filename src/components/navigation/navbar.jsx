@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import JoinButton from "../Other/joinbutton";
 import "../../index.css";
 import "./navbar.css";
 
@@ -20,12 +21,9 @@ function Navbar() {
           <a href="/#board" className="navbar__link h4">
             BOARD
           </a>
-          
         </div>
 
-        <Link to="/teacher" className="navbar__button h4">
-          JOIN NOW
-        </Link>
+        <JoinButton />
       </div>
     </nav>
   )
