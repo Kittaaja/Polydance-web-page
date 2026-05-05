@@ -15,6 +15,9 @@ function Navbar() {
           <a href="/#classes" className="navbar__link h4">
             CLASSES
           </a>
+          <a href="/#teachers" className="navbar__link h4">
+            TEACHERS
+          </a>
           <a href="/#workshops" className="navbar__link h4">
             WORKSHOPS
           </a>
