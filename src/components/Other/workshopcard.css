@@ -10,8 +10,17 @@
   flex-direction: column;
   min-height: 400px;
   background: var(--color-bg);
+  cursor: pointer;
+  transition: transform 300ms ease, box-shadow 300ms ease;
+
 }
 
+.workshop-card:hover {
+  transform: translateY(-4px);
+}
+.workshop-card:hover .workshop-card__image {
+  filter: brightness(1) grayscale(0); 
+}
 .workshop-card__media {
   position: relative;
   overflow: hidden;
@@ -23,6 +32,8 @@
   height: 100%;
   object-fit: cover;
   display: block;
+  filter: brightness(0.7) grayscale(0.2); 
+  transition: filter 0.3s ease;
 }
 
 .workshop-card__status {
@@ -66,6 +77,74 @@
   margin: 0;
 }
 
-.workshop-card__description {
+.workshop-card__teacher {
   margin: 0;
+}
+
+
+.workshop-card__modal-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 24px;
+  z-index: 999;
+}
+
+.workshop-card__modal {
+  width: min(740px, 100%);
+  max-height: 90vh;
+  overflow: auto;
+  background: var(--color-bg);
+  border: 1px solid rgba(95, 255, 196, 0.4);
+  box-shadow: 0 32px 120px rgba(0, 0, 0, 0.35);
+  position: relative;
+}
+
+.workshop-card__modal-close {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  border: none;
+  background: transparent;
+  color: var(--color-text-p);
+  font-size: 32px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.workshop-card__modal-media {
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.workshop-card__modal-image {
+  padding-top: 3%;
+  margin: 0 auto;
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+}
+
+.workshop-card__modal-content {
+  padding: 28px 32px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.workshop-card__modal-title {
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: center ;
+}
+
+.workshop-card__modal-text {
+  margin: 0;
+  margin-bottom: 20px;
+  white-space: pre-line;
+  text-align: center ;
 }

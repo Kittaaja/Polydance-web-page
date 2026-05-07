@@ -166,28 +166,63 @@ function HomePage() {
             image="/workshop-afro.jpeg"
             title="Afro Dance Workshop"
             date="MAY 20, 2026"
-            description="With Pauliina Diallo — a vibrant session blending rhythm, movement and cultural expression."
+            teacher="With Pauliina Diallo"
           />
           <WorkshopCard
             status="past"
             image="/workshop-improvisation-class.jpg"
             title="Improvisation Class"
             date="NOVEMBER 7, 2025"
-            description="With Amelie Koerbs — unlocking spontaneous movement through play and floorwork tools."
+            teacher="Amelie Koerbs"
+            teacherbio="I’m Amelie and I started dancing contemporary in 2017. Over the years I explored contact, modern, hip hop, ballet, 5-rhythms, and improvisation with different teachers. I use dance as a tool to connect with my body, emotions, and creativity. Improvisation has become something I return to again and again because it creates space to explore and express freely without judgement. This class is about sharing that space together."
+            description="This class invites you to get from your head into your body, to arrive in the space, let go of the day, and connect with yourself, others, and your surroundings through movement. We’ll begin by warming up the body, activating the skin, and exploring our physical possibilities and limits. Gradually, we’ll build movement vocabulary through improvisation exercises and floor work. In the final part of the class, we’ll bring it all together, improvising to different kinds of music. To close, we’ll slow down and do our stretches. Practical info: Wear comfortable clothing and long trousers. We’ll be moving both through the space and on the floor. Dancing barefoot is recommended for better grip, but socks are also fine. No shoes needed."
+            images={["/workshop-improvisation-class1.jpeg"]}
           />
           <WorkshopCard
             status="past"
-            image="/workshop-rave-break.jpeg"
+            image="/workshop-ravexbreak.jpg"
             title="Rave x Break"
             date="MAY 18, 2024"
-            description="With DJ Tauko & AaltoDJ — a high-energy breaking session set to rave-inspired beats."
+            teacher="DJ Tauko & AaltoDJ"
+            images={["/workshop-ravexbreak1.jpg"]}
+            description="Brief!
+Open cypher jam where you can freestyle to your hearts content along to music supplied by The Mexican and DJ Tauko who will play beats to keep the energy high. We will also have three Exhibition battles so come along and enjoy the event!
+If you still want more then stay for the after cypher rave which will continue on through the night!
+HOSTS	– DJ Tauko & Aalto DJ
+LOCATION	– Underpass Otakaari 22 (link)
+TIMING
+
+PRICE!?
+	– Cypher Jam
+14:00 -> 19:00 ( 2pm – 7pm )
+– Exhibition Battles
+15:00 ( 3pm )
+– Rave
+19:00 -> 04:00 ( 7pm – 4am )
+
+–Free
+
+CYPHER EXHIBITION BATTLES!
+MARCIN DRE	<-VS->	VIRVA
+INTO	<-VS->	TANSSANTERI
+NOKKAHIIRI	<-VS->	KIITTIS
+
+RAVE!
+MUSIC– JUNGLE / DUB / DUBSTEP TECHNO"
+
           />
           <WorkshopCard
             status="past"
-            image="/workshop-shuffle.jpeg"
+            image="/workshop-shuffle.jpg"
             title="Shuffle Workshop"
             date="MARCH 13, 2024"
-            description="With Julia Piironen — learn fast footwork, transitions, and groove structure."
+            teacher="Julia Piironen"
+            description="Location – The MutliFacility Hall, Jämeräntaival 3A, Otaniemi
+Workshop Date – 13th of March 2024
+Time – 21.00-22.00 pm
+Price – 15€
+
+Shuffle teacher Julia Piiroen will arrive in Otaniemi to give us an introduction to shuffle as a dance style. No matter if you are an experienced dancer or just considering starting a dancing hobby, don’t miss this opportunity! "
           />
         </div>
 
