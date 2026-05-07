@@ -374,7 +374,10 @@ body {
   .classes-card__image {
     height: 420px;
   }
-
+.workshops-grid {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    } 
   .board-grid {
     grid-template-columns: 1fr;
     gap: 24px;

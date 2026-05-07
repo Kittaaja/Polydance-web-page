@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import JoinButton from "../components/Other/joinbutton";
-import ScheduleButton from "../components/Other/schedulebutton";
+import AccentButton from "../components/Other/accentbutton";
 import WorkshopCard from "../components/Other/workshopcard";
 import BoardCard from "../components/Other/boardcard";
 import Footer from "../components/navigation/footer";
@@ -19,7 +19,7 @@ function HomePage() {
           </p>
           <div className="hero-actions">
             <JoinButton text="JOIN NOW"/>
-            <ScheduleButton />
+            <AccentButton text="LATEST INFO" />
           </div>
         </div>
       </section>
@@ -244,21 +244,29 @@ Shuffle teacher Julia Piiroen will arrive in Otaniemi to give us an introduction
             image="/board-veeti.jpg"
             name="Veeti Kittamaa"
             title="Chair"
+            description="My name is Veeti and I am the Chair of Polydance! I first joined the board in late 2023, originally handling our marketing, and I’m now honored to lead this amazing community.
+
+I’m currently on my third year of Information Technology at ELEC. I remember being super hyped when I saw the Polydance stand during my orientation week; I’d been wanting to get back into breaking since I stopped at the age of nine. I've been also doing some DJing at AaltoDJ and love to play videogames! 
+
+As the Chair, my role has evolved from social media posts to overseeing our general administration and the day-to-day operations of the club. My goal is to ensure everything runs smoothly so that all of the dancers can experience our great classes and teachers."
           />
           <BoardCard
             image="/board-jaakko.jpg"
             name="Jaakko Rapeli"
             title="Secretary"
+            description="Jaakko handles the administrative side, ensuring smooth operations and keeping everything organized."
           />
           <BoardCard
             image="/board-amelie.jpg"
             name="Amelie Koerbs"
             title="Artistic director"
+            description="Amelie brings artistic vision to Polydance, curating workshops and events that inspire creativity and movement."
           />
           <BoardCard
             image="/board-ino.jpg"
             name="Ino Rupisan"
             title="Marketing person"
+            description="Ino manages marketing efforts, spreading the word about Polydance and engaging the community online and offline."
           />
         </div>
 

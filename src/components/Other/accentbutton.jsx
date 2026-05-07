@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import "./button.css";
 
-function ScheduleButton() {
+function AccentButton({ text }) {
   return (
     <Link to="/teacher" className="schedule-button h4">
-      VIEW SCHEDULE
+      {text}
     </Link>
   )
 }
 
-export default ScheduleButton
+export default AccentButton
