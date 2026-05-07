@@ -153,45 +153,6 @@ body {
   z-index: -1;
 }
 
-.classes-card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  align-items: center;
-  text-align: left;
-  z-index: 1;
-  width: 100%;
-  max-width: 420px;
-  margin: 0 auto;
-}
-
-.classes-card__image-wrap {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-}
-
-.classes-card__image {
-  max-width: 420px;
-  display: block;
-  object-fit: cover;
-  height: 560px;
-}
-
-.classes-card__text {
-  width: 100%;
-  max-width: 420px;
-  margin: -40px 0 0;
-}
-
-.classes-card__text .p {
-  margin: -20px;
-  margin-left: auto;
-}
-
 
 
 .teachers-section {

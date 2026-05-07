@@ -13,7 +13,7 @@
   box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
 }
 .board-card__image-wrap:hover {
-  border: 2px solid rgba(95, 255, 196, 0.8);
+  outline: 2px solid rgba(95, 255, 196, 0.8);
 }
 
 .board-card__image {

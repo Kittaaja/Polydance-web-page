@@ -3,6 +3,7 @@ import JoinButton from "../components/Other/joinbutton";
 import AccentButton from "../components/Other/accentbutton";
 import WorkshopCard from "../components/Other/workshopcard";
 import BoardCard from "../components/Other/boardcard";
+import ClassCard from "../components/Other/classcard";
 import Footer from "../components/navigation/footer";
 
 function HomePage() {
@@ -32,33 +33,18 @@ function HomePage() {
 
         <div className="classes-grid">
           <div className="glow"/>
-          <article className="classes-card">
-            <div className="classes-card__image-wrap">
-              <img
-                src="/classes-breaking.jpg"
-                alt="Breaking class"
-                className="classes-card__image"
-              />
-            </div>
-            <div className="classes-card__text">
-              <h2 className="h2">BREAKING</h2>
-              <p className="p">Power moves, freezes, and footwork fundamentals</p>
-            </div>
-          </article>
-
-          <article className="classes-card">
-            <div className="classes-card__image-wrap">
-              <img
-                src="/classes-contemporary.jpg"
-                alt="Contemporary class"
-                className="classes-card__image"
-              />
-            </div>
-            <div className="classes-card__text">
-              <h2 className="h2">CONTEMPORARY</h2>
-              <p className="p">Expressive movement, floor work, artistic technique</p>
-            </div>
-          </article>
+          <ClassCard
+            image="/classes-breaking.jpg"
+            title="BREAKING"
+            description="Power moves, freezes, and footwork fundamentals"
+            id="breaking"
+          />
+          <ClassCard
+            image="/classes-contemporary.jpg"
+            title="CONTEMPORARY"
+            description="Expressive movement, floor work, artistic technique"
+            id="contemporary"
+          />
         </div>
       </section>
 
