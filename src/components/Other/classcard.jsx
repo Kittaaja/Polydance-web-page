@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "./classcard.css";
 
 function ClassCard({ image, title, description, id }) {
   return (
-    <Link to={`/teacher#${id}`} className="class-card-link">
+    <HashLink to={`/classes#${id}`} className="class-card-link">
       <article className="class-card">
         <div className="class-card__image-wrap">
           <img
@@ -17,7 +17,7 @@ function ClassCard({ image, title, description, id }) {
           <p className="p">{description}</p>
         </div>
       </article>
-    </Link>
+    </HashLink>
   );
 }
 

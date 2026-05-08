@@ -82,7 +82,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: linear-gradient(to right, rgba(10, 22, 40, 1), rgba(10, 22, 40, 0.85)), url('/hero-background.jpg');
+  background-image: linear-gradient(to right, rgba(10, 22, 40, 0.999), rgba(10, 22, 40, 0.9)), url('/hero-background.jpg');
   background-size: cover;
   background-position: center;
   color: var(--color-text);

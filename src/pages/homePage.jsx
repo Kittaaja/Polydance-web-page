@@ -10,7 +10,7 @@ function HomePage() {
   return (
     <main>
       
-      <section className="hero-section" id="hero">
+      <section id="hero" className="hero-section">
         <div className="hero-content">
           <p className="p-accent">FROM STUDENTS, TO STUDENTS</p>
             <img src="/logo.png" alt="Logo" className="hero-logo" />

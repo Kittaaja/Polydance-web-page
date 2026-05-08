@@ -3,7 +3,7 @@ import "./button.css";
 
 function JoinButton({text}) {
   return (
-    <HashLink to="/teacher" className="join-button h4">
+    <HashLink to="/classes" className="join-button h4">
       {text}
     </HashLink>
   )
