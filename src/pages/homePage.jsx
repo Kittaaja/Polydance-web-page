@@ -20,7 +20,7 @@ function HomePage() {
           </p>
           <div className="hero-actions">
             <JoinButton text="JOIN NOW"/>
-            <AccentButton text="LATEST INFO" />
+            <AccentButton text="LATEST INFO" id = "info" />
           </div>
         </div>
       </section>
@@ -148,14 +148,20 @@ function HomePage() {
         <div className="workshops-grid">
           <div className="glow"/>
           <WorkshopCard
-            status="upcoming"
             image="/workshop-afro.jpeg"
-            title="Afro Dance Workshop"
-            date="MAY 20, 2026"
-            teacher="With Pauliina Diallo"
+            title="West African Dance"
+            date="MAY 19, 2026"
+            teacher="Pauliina Diallo"
+            teacherbio="
+            Pauliina Diallo has been teaching African dance for over 20 years. Her background also includes contemporary and jazz dance, contact improvisation, and various forms of yoga.
+            Pauliina has been involved in numerous productions as a dancer, singer, and producer, and has created several full-length multidisciplinary performances.
+            African dance and music are especially close to her heart, and she has deepened her expertise in Guinea by participating in intensive dance and rhythm courses. She has performed with the Finnish-Guinean group Wonuwali as well as at the Finnish National Theatre, around Finland, and even in China." 
+            description="
+            In this class, you will dance to the rhythms of live drums in a relaxed and welcoming atmosphere – expect grounded movements, joy, sweat, and energy! The movements include bouncing, stomping, jumping, and engaging the whole body.
+            West African dance is fun, energetic, and great for improving fitness, while also being easy to approach – no previous experience is needed."
+            
           />
           <WorkshopCard
-            status="past"
             image="/workshop-improvisation-class.jpg"
             title="Improvisation Class"
             date="NOVEMBER 7, 2025"
@@ -165,57 +171,53 @@ function HomePage() {
             images={["/workshop-improvisation-class1.jpeg"]}
           />
           <WorkshopCard
-            status="past"
             image="/workshop-ravexbreak.jpg"
             title="Rave x Break"
             date="MAY 18, 2024"
             teacher="DJ Tauko & AaltoDJ"
             images={["/workshop-ravexbreak1.jpg"]}
             description="Brief!
-Open cypher jam where you can freestyle to your hearts content along to music supplied by The Mexican and DJ Tauko who will play beats to keep the energy high. We will also have three Exhibition battles so come along and enjoy the event!
-If you still want more then stay for the after cypher rave which will continue on through the night!
-HOSTS	– DJ Tauko & Aalto DJ
-LOCATION	– Underpass Otakaari 22 (link)
-TIMING
+            Open cypher jam where you can freestyle to your hearts content along to music supplied by The Mexican and DJ Tauko who will play beats to keep the energy high. We will also have three Exhibition battles so come along and enjoy the event!
+            If you still want more then stay for the after cypher rave which will continue on through the night!
+            HOSTS	– DJ Tauko & Aalto DJ
+            LOCATION	– Underpass Otakaari 22 (link)
+            TIMING
 
-PRICE!?
-	– Cypher Jam
-14:00 -> 19:00 ( 2pm – 7pm )
-– Exhibition Battles
-15:00 ( 3pm )
-– Rave
-19:00 -> 04:00 ( 7pm – 4am )
+            PRICE!?
+            – Cypher Jam
+            14:00 -> 19:00 ( 2pm – 7pm )
+            – Exhibition Battles
+            15:00 ( 3pm )
+            – Rave
+            19:00 -> 04:00 ( 7pm – 4am )
 
-–Free
+            –Free
 
-CYPHER EXHIBITION BATTLES!
-MARCIN DRE	<-VS->	VIRVA
-INTO	<-VS->	TANSSANTERI
-NOKKAHIIRI	<-VS->	KIITTIS
+            CYPHER EXHIBITION BATTLES!
+            MARCIN DRE	<-VS->	VIRVA
+            INTO	<-VS->	TANSSANTERI
+            NOKKAHIIRI	<-VS->	KIITTIS
 
-RAVE!
-MUSIC– JUNGLE / DUB / DUBSTEP TECHNO"
+            RAVE!
+            MUSIC– JUNGLE / DUB / DUBSTEP TECHNO"
 
           />
           <WorkshopCard
-            status="past"
             image="/workshop-shuffle.jpg"
             title="Shuffle Workshop"
             date="MARCH 13, 2024"
             teacher="Julia Piironen"
             description="Location – The MutliFacility Hall, Jämeräntaival 3A, Otaniemi
-Workshop Date – 13th of March 2024
-Time – 21.00-22.00 pm
-Price – 15€
+            Workshop Date – 13th of March 2024
+            Time – 21.00-22.00 pm
+            Price – 15€
 
-Shuffle teacher Julia Piiroen will arrive in Otaniemi to give us an introduction to shuffle as a dance style. No matter if you are an experienced dancer or just considering starting a dancing hobby, don’t miss this opportunity! "
+            Shuffle teacher Julia Piironen will arrive in Otaniemi to give us an introduction to shuffle as a dance style. No matter if you are an experienced dancer or just considering starting a dancing hobby, don’t miss this opportunity! "
           />
         </div>
 
         <div className="workshops-actions">
-          <Link to="/events" className="workshops-button h4">
-            AND MORE
-          </Link>
+          <AccentButton text="AND MORE"/>
         </div>
       </section>
 
@@ -232,9 +234,9 @@ Shuffle teacher Julia Piiroen will arrive in Otaniemi to give us an introduction
             title="Chair"
             description="My name is Veeti and I am the Chair of Polydance! I first joined the board in late 2023, originally handling our marketing, and I’m now honored to lead this amazing community.
 
-I’m currently on my third year of Information Technology at ELEC. I remember being super hyped when I saw the Polydance stand during my orientation week; I’d been wanting to get back into breaking since I stopped at the age of nine. I've been also doing some DJing at AaltoDJ and love to play videogames! 
+            I’m currently on my third year of Information Technology at ELEC. I remember being super hyped when I saw the Polydance stand during my orientation week; I’d been wanting to get back into breaking since I stopped at the age of nine. I've been also doing some DJing at AaltoDJ and love to play videogames! 
 
-As the Chair, my role has evolved from social media posts to overseeing our general administration and the day-to-day operations of the club. My goal is to ensure everything runs smoothly so that all of the dancers can experience our great classes and teachers."
+            As the Chair, my role has evolved from social media posts to overseeing our general administration and the day-to-day operations of the club. My goal is to ensure everything runs smoothly so that all of the dancers can experience our great classes and teachers."
           />
           <BoardCard
             image="/board-jaakko.jpg"

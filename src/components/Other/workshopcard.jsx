@@ -1,9 +1,13 @@
 import { useState } from "react";
 import "./workshopcard.css";
 
-function WorkshopCard({ status = "upcoming", image, title, date, teacher, description, teacherbio, images }) {
+function WorkshopCard({image, title, date, teacher, description, teacherbio, images }) {
   const [isOpen, setIsOpen] = useState(false);
-  const statusClass = status === "past"
+  const workshopDate = new Date(date);
+  const today = new Date();
+  const isPast = workshopDate.setHours(0, 0, 0, 0) < today.setHours(0, 0, 0, 0);
+  const status = isPast ? "past" : "upcoming";
+  const statusClass = isPast
     ? "workshop-card__status h4 workshop-card__status--past"
     : "workshop-card__status h4 workshop-card__status--upcoming";
 

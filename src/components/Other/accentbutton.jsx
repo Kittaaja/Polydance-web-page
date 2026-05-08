@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import "./button.css";
 
-function AccentButton({ text }) {
+function AccentButton({ text, id }) {
   return (
-    <Link to="/teacher" className="schedule-button h4">
+    <Link to={`/events#${id}`} className="schedule-button h4">
       {text}
     </Link>
   )
