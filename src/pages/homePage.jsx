@@ -213,7 +213,7 @@ Shuffle teacher Julia Piiroen will arrive in Otaniemi to give us an introduction
         </div>
 
         <div className="workshops-actions">
-          <Link to="/workshops" className="workshops-button h4">
+          <Link to="/events" className="workshops-button h4">
             AND MORE
           </Link>
         </div>

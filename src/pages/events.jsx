@@ -1,10 +1,10 @@
 import WorkshopCard from "../components/Other/workshopcard";
 import { Link } from "react-router-dom";
 
-function WorkshopsPage() {
+function EventsPage() {
   return (
     <main>
-      <section id="workshops" className="workshops-section">
+      <section className="workshops-section">
         <div className="workshops-header">
           <h1 className="h1">WORKSHOPS & <span style={{ color: '#5FFFC4' }}>EVENTS</span></h1>
           <p className="p">Our community in action</p>
@@ -87,4 +87,4 @@ Shuffle teacher Julia Piiroen will arrive in Otaniemi to give us an introduction
   );
 }
 
-export default WorkshopsPage;
+export default EventsPage;
