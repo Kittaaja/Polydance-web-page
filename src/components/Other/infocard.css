@@ -1,6 +1,6 @@
 .info-card {
   border-left: 4px solid var(--color-accent);
-  background: linear-gradient(to right, rgba(19, 44, 82, 0.471), rgba(10, 22, 40, 0.1));
+  background: linear-gradient(to right, rgba(19, 44, 82, 0.7), rgba(10, 22, 40, 0.1));
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,10 @@
   box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
   margin-bottom: 20px;
 }
-
+.info-card--past {
+  border-color: var(--color-text-p);
+  background: linear-gradient(to right, rgba(19, 44, 82, 0.3), rgba(10, 22, 40, 0.05));
+}
 .info-card:hover {
   transform: translateY(-4px);
 }

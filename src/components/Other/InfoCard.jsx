@@ -12,9 +12,12 @@ function InfoCard({date, title, text}) {
   const statusClass = isOld
     ? "info-card__status h4 info-card__status--past"
     : "info-card__status h4 info-card__status--new";
+  const cardClass = isOld
+    ? "info-card info-card--past"
+    : "info-card";
 
   return (
-    <article className="info-card">
+    <article className={cardClass}>
       <div className="info-card__header">
         <div className={statusClass}>
           {statusText}
