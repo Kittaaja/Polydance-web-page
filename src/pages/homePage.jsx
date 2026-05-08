@@ -20,7 +20,7 @@ function HomePage() {
 
           </p>
           <div className="hero-actions">
-            <JoinButton text="VIEW SCHEDULE" id="/classes#pricing" />
+            <JoinButton text="VIEW CLASSES" id="/classes#pricing" />
             <AccentButton text="LATEST INFO" id="/events#info" />
           </div>
         </div>

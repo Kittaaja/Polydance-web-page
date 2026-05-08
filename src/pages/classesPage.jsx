@@ -1,6 +1,7 @@
 import PricingSection from "../components/Other/pricing";
 import ClassInfo from "../components/Other/classinfo";
 import JoinButton from "../components/Other/joinbutton";
+import Footer from "../components/navigation/footer";
 
 function ClassesPage() {
   const breakingSchedule = [
@@ -12,7 +13,7 @@ function ClassesPage() {
     { day: "Thursday", time: "16.30 - 18.00", level: "Intermediate" },
   ];
   return (
-    <main className="classes-page">
+    <main>
 
       <section id="pricing">
         <div className="pricing-header">
@@ -88,7 +89,9 @@ function ClassesPage() {
           </div>
         </div>
       </section>
+    <Footer />
     </main>
+    
   )
 }
 

@@ -2,6 +2,7 @@ import WorkshopCard from "../components/Other/workshopcard";
 import { Link } from "react-router-dom";
 import InfoCard from "../components/Other/infocard"; 
 import AccentButton from "../components/Other/accentbutton";
+import Footer from "../components/navigation/footer";
 
 function EventsPage() {
   return (
@@ -112,6 +113,7 @@ function EventsPage() {
         <AccentButton text="BACK TO HOME" id ="/#hero" />
       </div>
     </section>
+    <Footer />
     </main>
   );
 }
