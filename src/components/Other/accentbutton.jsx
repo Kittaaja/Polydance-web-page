@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "./button.css";
 
 function AccentButton({ text, id }) {
   return (
-    <Link to={`/events#${id}`} className="schedule-button h4">
+    <HashLink to={id} className="schedule-button h4">
       {text}
-    </Link>
+    </HashLink>
   )
 }
 

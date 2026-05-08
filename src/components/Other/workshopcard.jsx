@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./workshopcard.css";
 
 function WorkshopCard({image, title, date, teacher, description, teacherbio, images }) {
-  const [isOpen, setIsOpen] = useState(false);
   const workshopDate = new Date(date);
   const today = new Date();
   const isPast = workshopDate.setHours(0, 0, 0, 0) < today.setHours(0, 0, 0, 0);
@@ -11,6 +10,7 @@ function WorkshopCard({image, title, date, teacher, description, teacherbio, ima
     ? "workshop-card__status h4 workshop-card__status--past"
     : "workshop-card__status h4 workshop-card__status--upcoming";
 
+  const [isOpen, setIsOpen] = useState(false);
   const openModal = () => setIsOpen(true);
   const closeModal = () => setIsOpen(false);
   const handleKeyDown = (event) => {

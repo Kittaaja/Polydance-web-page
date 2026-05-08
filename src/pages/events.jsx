@@ -1,10 +1,40 @@
 import WorkshopCard from "../components/Other/workshopcard";
 import { Link } from "react-router-dom";
-
+import InfoCard from "../components/Other/infocard"; 
+import AccentButton from "../components/Other/accentbutton";
 function EventsPage() {
   return (
     <main>
-      <section className="workshops-section">
+      <section className="info-section" id = "info">
+        <div className="info-header">
+            <img src="/icon-bell.svg" alt="Bell" className="info-header__icon" />
+            <h1 className="h1">LATEST <span style={{ color: '#5FFFC4' }}>INFO</span></h1>
+            <p className="p">Stay updated with announcements, events, and community news</p>
+        </div>
+
+        <div className="info-list">
+          <h2 className="h2" style={{ color: 'var(--color-accent)', marginBottom: '32px' }} id="info">ANNOUNCEMENTS</h2>
+          
+          <InfoCard 
+            date="MAY 7, 2026"
+            title="Summer Intensive Registration Now Open!"
+            text="Join us for an intensive 3-day workshop featuring guest instructors and special sessions. Early bird pricing available until May 15th."
+          />
+
+          <InfoCard 
+            date="APRIL 28, 2026"
+            title="Studio Schedule Update"
+            text="Starting May 1st, we're adding an extra Breaking session on Saturdays at 16:00. Open to all levels!"
+          />
+
+          <InfoCard 
+            date="MARCH 20, 2026"
+            title="Spring Jam Photos are up!"
+            text="Check out the gallery for highlights from our last community jam."
+          />
+        </div>
+      </section>
+      <section className="workshops-section" id="workshop">
         <div className="workshops-header">
           <h1 className="h1">WORKSHOPS & <span style={{ color: '#5FFFC4' }}>EVENTS</span></h1>
           <p className="p">Our community in action</p>
@@ -37,29 +67,29 @@ function EventsPage() {
             teacher="DJ Tauko & AaltoDJ"
             images={["/workshop-ravexbreak1.jpg"]}
             description="Brief!
-Open cypher jam where you can freestyle to your hearts content along to music supplied by The Mexican and DJ Tauko who will play beats to keep the energy high. We will also have three Exhibition battles so come along and enjoy the event!
-If you still want more then stay for the after cypher rave which will continue on through the night!
-HOSTS	– DJ Tauko & Aalto DJ
-LOCATION	– Underpass Otakaari 22 (link)
-TIMING
+            Open cypher jam where you can freestyle to your hearts content along to music supplied by The Mexican and DJ Tauko who will play beats to keep the energy high. We will also have three Exhibition battles so come along and enjoy the event!
+            If you still want more then stay for the after cypher rave which will continue on through the night!
+            HOSTS	– DJ Tauko & Aalto DJ
+            LOCATION	– Underpass Otakaari 22 (link)
+            TIMING
 
-PRICE!?
-	– Cypher Jam
-14:00 -> 19:00 ( 2pm – 7pm )
-– Exhibition Battles
-15:00 ( 3pm )
-– Rave
-19:00 -> 04:00 ( 7pm – 4am )
+            PRICE!?
+              – Cypher Jam
+            14:00 -> 19:00 ( 2pm – 7pm )
+            – Exhibition Battles
+            15:00 ( 3pm )
+            – Rave
+            19:00 -> 04:00 ( 7pm – 4am )
 
-–Free
+            –Free
 
-CYPHER EXHIBITION BATTLES!
-MARCIN DRE	<-VS->	VIRVA
-INTO	<-VS->	TANSSANTERI
-NOKKAHIIRI	<-VS->	KIITTIS
+            CYPHER EXHIBITION BATTLES!
+            MARCIN DRE	<-VS->	VIRVA
+            INTO	<-VS->	TANSSANTERI
+            NOKKAHIIRI	<-VS->	KIITTIS
 
-RAVE!
-MUSIC– JUNGLE / DUB / DUBSTEP TECHNO"
+            RAVE!
+            MUSIC– JUNGLE / DUB / DUBSTEP TECHNO"
 
           />
           <WorkshopCard
@@ -69,18 +99,16 @@ MUSIC– JUNGLE / DUB / DUBSTEP TECHNO"
             date="MARCH 13, 2024"
             teacher="Julia Piironen"
             description="Location – The MutliFacility Hall, Jämeräntaival 3A, Otaniemi
-Workshop Date – 13th of March 2024
-Time – 21.00-22.00 pm
-Price – 15€
+            Workshop Date – 13th of March 2024
+            Time – 21.00-22.00 pm
+            Price – 15€
 
-Shuffle teacher Julia Piiroen will arrive in Otaniemi to give us an introduction to shuffle as a dance style. No matter if you are an experienced dancer or just considering starting a dancing hobby, don’t miss this opportunity! "
+            Shuffle teacher Julia Piiroen will arrive in Otaniemi to give us an introduction to shuffle as a dance style. No matter if you are an experienced dancer or just considering starting a dancing hobby, don’t miss this opportunity! "
           />
         </div>
 
       <div className="workshops-actions">
-        <Link to="/" className="workshops-button h4">
-          BACK TO HOME
-        </Link>
+        <AccentButton text="BACK TO HOME" id ="/#hero" />
       </div>
     </section>
     </main>

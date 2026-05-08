@@ -9,7 +9,8 @@ import Footer from "../components/navigation/footer";
 function HomePage() {
   return (
     <main>
-      <section id="hero" className="hero-section">
+      
+      <section className="hero-section" id="hero">
         <div className="hero-content">
           <p className="p-accent">FROM STUDENTS, TO STUDENTS</p>
             <img src="/logo.png" alt="Logo" className="hero-logo" />
@@ -20,7 +21,7 @@ function HomePage() {
           </p>
           <div className="hero-actions">
             <JoinButton text="JOIN NOW"/>
-            <AccentButton text="LATEST INFO" id = "info" />
+            <AccentButton text="LATEST INFO" id = "/events#info" />
           </div>
         </div>
       </section>
@@ -180,7 +181,7 @@ function HomePage() {
             Open cypher jam where you can freestyle to your hearts content along to music supplied by The Mexican and DJ Tauko who will play beats to keep the energy high. We will also have three Exhibition battles so come along and enjoy the event!
             If you still want more then stay for the after cypher rave which will continue on through the night!
             HOSTS	– DJ Tauko & Aalto DJ
-            LOCATION	– Underpass Otakaari 22 (link)
+            LOCATION	– Underpass Otakaari 22
             TIMING
 
             PRICE!?
@@ -217,7 +218,7 @@ function HomePage() {
         </div>
 
         <div className="workshops-actions">
-          <AccentButton text="AND MORE"/>
+          <AccentButton text="AND MORE" id="/events#workshop" />
         </div>
       </section>
 

@@ -3,17 +3,20 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: #5FFFC4;
-  color: #0A1628;
+  background: var(--color-accent);
+  color: var(--color-bg);
   border: none;
   padding: 14px 30px;
   text-decoration: none;
+  transition: background-color 300ms ease, 300ms ease, box-shadow 300ms ease, scale 300ms ease;
 }
 
 
 
 .join-button:hover {
-  box-shadow: 0 0 16px rgba(95, 255, 196, 0.32);
+  box-shadow: 0 0 20px rgba(95, 255, 196, 0.32);
+  scale: 1.05;
+  background-color:#5fecff
 }
 
 .schedule-button {
@@ -26,11 +29,14 @@
   border: 3px solid var(--color-accent);
   padding: 14px 30px;
   text-decoration: none;
+  transition: background-color 300ms ease, 300ms ease, box-shadow 300ms ease, scale 300ms ease;
 }
 .schedule-button.h4 {
   color: var(--color-accent)
 }
 
 .schedule-button:hover {
-  box-shadow: 0 0 16px rgba(95, 255, 196, 0.32);
+  box-shadow: 0 0 20px rgba(95, 255, 196, 0.32);
+  scale: 1.05;
+  background-color: rgba(95, 255, 196, 0.1);
 }

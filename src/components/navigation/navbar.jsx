@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import {HashLink } from "react-router-hash-link";
 import JoinButton from "../Other/joinbutton";
 import "../../index.css";
 import "./navbar.css";
@@ -7,23 +7,23 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar__inner">
-        <Link to="/#hero" className="navbar__brand">
+        <HashLink to="/#hero" className="navbar__brand">
           <img src="/logo.png" alt="Logo" className="navbar__logo" />
-        </Link>
+        </HashLink>
 
         <div className="navbar__links">
-          <a href="/#classes" className="navbar__link h4">
+          <HashLink to="/#classes" className="navbar__link h4">
             CLASSES
-          </a>
-          <a href="/#teachers" className="navbar__link h4">
+          </HashLink>
+          <HashLink to="/#teachers" className="navbar__link h4">
             TEACHERS
-          </a>
-          <a href="/#workshops" className="navbar__link h4">
+          </HashLink>
+          <HashLink to="/#workshops" className="navbar__link h4">
             WORKSHOPS
-          </a>
-          <a href="/#board" className="navbar__link h4">
+          </HashLink>
+          <HashLink to="/#board" className="navbar__link h4">
             BOARD
-          </a>
+          </HashLink>
         </div>
 
         <JoinButton text="JOIN NOW" />

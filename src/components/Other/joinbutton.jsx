@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "./button.css";
 
 function JoinButton({text}) {
   return (
-    <Link to="/teacher" className="join-button h4">
+    <HashLink to="/teacher" className="join-button h4">
       {text}
-    </Link>
+    </HashLink>
   )
 }
 
