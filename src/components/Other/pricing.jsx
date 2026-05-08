@@ -13,15 +13,6 @@ function PricingCard({ title, price }) {
 function PricingSection() {
   return (
     <section className="pricing-section">
-      <div className="pricing-header">
-        <h1 className="h1">
-          CLASS <span style={{ color: "#5FFFC4" }}>SCHEDULE</span>
-        </h1>
-
-        <p className="p pricing-subtitle">
-          Choose your path. First class is always free to try!
-        </p>
-      </div>
 
       <div className="pricing-box">
         <h2 className="h2 pricing-box__title">Package Pricing</h2>

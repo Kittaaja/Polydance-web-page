@@ -20,8 +20,8 @@ function HomePage() {
 
           </p>
           <div className="hero-actions">
-            <JoinButton text="JOIN NOW"/>
-            <AccentButton text="LATEST INFO" id = "/events#info" />
+            <JoinButton text="VIEW SCHEDULE" id="/classes#pricing" />
+            <AccentButton text="LATEST INFO" id="/events#info" />
           </div>
         </div>
       </section>
@@ -264,7 +264,7 @@ function HomePage() {
           <h1 className="h1">READY TO <br />
             <span style={{ color: '#5FFFC4' }}>ELEVATE?</span></h1>
           <p className="p">Join our community and unlock your potential</p>
-            <JoinButton text="BOOK YOUR FIRST CLASS" />
+            <JoinButton text="BOOK YOUR FIRST CLASS" id="/classes#pricing" />
       </div>
       <Footer />
     </main>

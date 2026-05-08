@@ -26,7 +26,7 @@ function Navbar() {
           </HashLink>
         </div>
 
-        <JoinButton text="JOIN NOW" />
+        <JoinButton text="JOIN NOW" id="/classes#pricing" />
       </div>
     </nav>
   )

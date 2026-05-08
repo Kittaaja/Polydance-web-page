@@ -1,9 +1,9 @@
 import { HashLink } from "react-router-hash-link";
 import "./button.css";
 
-function JoinButton({text}) {
+function JoinButton({text, id}) {
   return (
-    <HashLink to="/classes" className="join-button h4">
+    <HashLink to={id} className="join-button h4">
       {text}
     </HashLink>
   )
