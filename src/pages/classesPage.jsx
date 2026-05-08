@@ -1,8 +1,9 @@
+import PricingSection from "../components/Other/pricing";
+
 function ClassesPage() {
   return (
-    <main style={{ padding: "120px 24px", minHeight: "100vh" }}>
-      <h1>Classes Page</h1>
-      <p>Welcome to the classes page.</p>
+    <main className="classes-page">
+      <PricingSection />
 
       <section id="breaking">
         <h2>Breaking Classes</h2>
