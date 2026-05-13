@@ -1,9 +1,12 @@
+import { useState } from "react";
 import {HashLink } from "react-router-hash-link";
 import JoinButton from "../Other/joinbutton";
 import "../../index.css";
 import "./navbar.css";
 
 function Navbar() {
+  const [open, setOpen] = useState(false);
+
   return (
     <nav className="navbar">
       <div className="navbar__inner">
@@ -27,6 +30,29 @@ function Navbar() {
         </div>
 
         <JoinButton text="JOIN NOW" id="/classes#pricing" />
+        <button
+          className={`navbar__burger${open ? " navbar__burger--open" : ""}`} onClick={() => setOpen(!open)}>
+          <span />
+          <span />
+          <span />
+        </button>
+      </div>
+      <div className={`navbar__drawer${open ? " navbar__drawer--open" : ""}`}>
+        <HashLink to="/#classes" className="navbar__drawer-link h4" onClick={() => setOpen(false)}>
+          CLASSES
+        </HashLink>
+        <HashLink to="/#teachers" className="navbar__drawer-link h4" onClick={() => setOpen(false)}>
+          TEACHERS
+        </HashLink>
+        <HashLink to="/#workshops" className="navbar__drawer-link h4" onClick={() => setOpen(false)}>
+          WORKSHOPS
+        </HashLink>
+        <HashLink to="/#board" className="navbar__drawer-link h4" onClick={() => setOpen(false)}>
+          BOARD
+        </HashLink>
+        <div className="navbar__drawer-join">
+          <JoinButton text="JOIN NOW"  id="/classes#pricing" />
+        </div>
       </div>
     </nav>
   )
