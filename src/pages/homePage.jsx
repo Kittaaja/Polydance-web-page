@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import JoinButton from "../components/Other/joinbutton";
-import AccentButton from "../components/Other/accentbutton";
-import WorkshopCard from "../components/Other/workshopcard";
-import BoardCard from "../components/Other/boardcard";
-import ClassCard from "../components/Other/classcard";
+import JoinButton from "../components/Other/joinbutton.jsx";
+import AccentButton from "../components/Other/accentbutton.jsx";
+import WorkshopCard from "../components/Other/workshopcard.jsx";
+import BoardCard from "../components/Other/boardcard.jsx";
+import ClassCard from "../components/Other/classcard.jsx";
 
 function HomePage() {
   return (

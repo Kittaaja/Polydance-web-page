@@ -1,6 +1,6 @@
-import Navbar from "../components/navigation/navbar";
-import Footer from "../components/navigation/footer";
-import QuizComponent from "../components/Other/quiz";
+import Navbar from "../components/navigation/navbar.jsx";
+import Footer from "../components/navigation/footer.jsx";
+import QuizComponent from "../components/Other/quiz.jsx";
 import "../components/Other/quiz.css";
 
 function QuizPage() {

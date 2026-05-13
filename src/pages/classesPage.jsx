@@ -1,7 +1,7 @@
-import PricingSection from "../components/Other/pricing";
-import ClassInfo from "../components/Other/classinfo";
-import BookButton from "../components/Other/bookbutton";
-import JoinButton from "../components/Other/joinbutton";
+import PricingSection from "../components/Other/pricing.jsx";
+import ClassInfo from "../components/Other/classinfo.jsx";
+import BookButton from "../components/Other/bookbutton.jsx";
+import JoinButton from "../components/Other/joinbutton.jsx";
 
 function ClassesPage() {
   const breakingSchedule = [

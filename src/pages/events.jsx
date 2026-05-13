@@ -1,7 +1,7 @@
-import WorkshopCard from "../components/Other/workshopcard";
 import { Link } from "react-router-dom";
-import InfoCard from "../components/Other/infocard"; 
-import AccentButton from "../components/Other/accentbutton";
+import WorkshopCard from "../components/Other/workshopcard.jsx";
+import InfoCard from "../components/Other/infocard.jsx"; 
+import AccentButton from "../components/Other/accentbutton.jsx";
 function EventsPage() {
   return (
     <main>
