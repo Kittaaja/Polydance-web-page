@@ -242,13 +242,17 @@ function HomePage() {
             image="/board-jaakko.jpg"
             name="Jaakko Rapeli"
             title="Secretary"
-            description="Jaakko handles the administrative side, ensuring smooth operations and keeping everything organized."
+            description="My name is Jaakko and I am a second-year Business student at Aalto. I joined Polydance's breakdance classes with zero dance experience and it turned out to be very fun, and the community was very welcoming. My job as the treasurer is to keep track of the association's finances and ensure everything runs smoothly from a budgeting perspective."
           />
           <BoardCard
             image="/board-amelie.jpg"
             name="Amelie Koerbs"
             title="Artistic director"
-            description="Amelie brings artistic vision to Polydance, curating workshops and events that inspire creativity and movement."
+            description="Hi! I’m Amelie, I just moved to Helsinki last summer and am happy to be part of Polydance and to keep practicing contemporary dance! I’m the one keeping the notes during our board meetings so no one forgets what has been discussed.
+
+            I started dancing contemporary in 2017, learning from multiple teachers, which is exciting, as I was lucky to learn different approaches. I’ve always been curious to explore other dances like contact, modern, hip hop, ballet, 5-rhythms, and improvisation - I guess next is trying breaking at Polydance. But what I love most is contemporary improvisation. It opens space for me to connect with my body, emotions, and creativity. I see it also as my space to explore and express myself freely, without judgment.
+
+            The way I approach my dance is also integral to how I approach my photographic practice (yes, I’m doing my master’s in photography at Aalto): I tune in to what surrounds me, I allow it to influence my body, and after transforming what I took from my environment, I aspire to give it back anew."
           />
           <BoardCard
             image="/board-ino.jpg"
