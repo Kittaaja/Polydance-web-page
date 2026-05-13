@@ -1,16 +1,11 @@
-# React + Vite
+## Mitä opitte git yhteistyöstä ja yhdessä projektin tekemisestä? Mitä haasteita yhteistyö gitissä mahdollisesti aiheutti?
+Tein yksin. Ei tullut haasteita yhteistyöhön 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Millaista työnjaon tekeminen oli? Oliko helppoa jakaa työ tehtäviin palasiin ryhmäläisten kesken?
+Tein yksin. Ei tullut haasteita yhteistyöhön 
 
-Currently, two official plugins are available:
+## Mitä uutta opitte UI-suunnittelusta viestinnän keinona?
+Opin, kuinka tärkeää on suunnitella navigaatio kunnolla, ennen kuin alkaa koodaamaan. Työn edetessä mulle tuli mieleen vaikka mitä uusia navigointisivuja ja se vaikeutti projektia. Loppupeleissä navbar ei edes vie eri sivuille, sillä pidän rullaavasta homepagesta. En keksinyt enää mitään tapaa implementoida esim info-osiota navbariin. Laitoinpa sen siis etusivun ensimmäiseksi nappulaksi. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Jos hyödynsitte tehtävän teossa tekoälyä, millä tavalla?
+Hyödynsin välillä VSCoden automaattiehdotusta, esim jos importtasin tiedoston alunperin väärin, niin yhden rivin korjaamalla AI ehdotti muuttaa myös muita tiedostoja. Käytin sitä myös joskus css-tiedoston liukuhihnaoperaatioissa, ettei jokaista riviä tarvinnut kirjoittaa jokaiselle luokalle uudelleen. Toki ei tainnut kertaakaan ehdotus käydä sellaisenaan :D. Sit käytin silloin, kun en enää tiennyt mikä ongelma mun koodissa oli ja ei näkynyt mitään, niin AI toimi sillä hetkellä assarina xD. Aika usein oli iso kirjain tai väärä polku importeissa ;/
