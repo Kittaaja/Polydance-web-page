@@ -15,10 +15,10 @@ function ClassInfo({ scheduleData, location, date }) {
         {scheduleData.map((item, index) => (
           <div key={index} className="schedule-row">
             <div className="schedule-day-time">
-              <span className="dot"></span>
+              <span className="dot schedule-separator"></span>
               <span className="p">{item.day}</span>
-              <span className="p">|</span>
-              <span className="p">{item.time}</span>
+              <span className="p schedule-separator">|</span>
+              <span className="p day-text">{item.time}</span>
             </div>
             <span className={"h4 level-tag"}>
               {item.level.toUpperCase()}

@@ -45,3 +45,28 @@
   margin-top: 15px;
   opacity: 0.8;
 }
+
+@media (max-width: 600px) {
+  .schedule-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+    padding: 16px;
+  }
+
+  .schedule-day-time {
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .level-tag {
+    width: 100%;
+    text-align: left;
+  }
+  
+  .schedule-separator {
+    display: none;
+  }
+}

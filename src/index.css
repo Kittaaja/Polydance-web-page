@@ -133,7 +133,8 @@ body {
 
 .classes-grid {
   position: relative;
-  display: grid;
+  display: flex;
+  flex-direction: row;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   width: min(100%, 1200px);
   gap: 32px;
@@ -308,7 +309,10 @@ body {
   }
 
   .classes-grid {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+  }
+  .classes-header {
+    text-align: center;
   }
 
   .teacher-card,
@@ -378,7 +382,6 @@ body {
 
 .class-detail-image {
   flex: 1;
-  min-width: 400px;
 }
 
 .class-detail-image img {
@@ -416,11 +419,14 @@ body {
   color: var(--color-text-p);
 }
 
-@media (max-width: 930px) {
+@media (max-width: 1090px) {
   .class-detail-card {
     flex-direction: column;
   }
   .class-detail-image {
     height: 400px;
+  }
+  .classes-section {
+    padding: 20px;
   }
 }

@@ -17,6 +17,7 @@
   margin: 0 auto;
   cursor: pointer;
   transition: transform 300ms ease;
+  
 }
 .class-card:hover .class-card__image {
   transform: scale(1.1);
@@ -57,7 +58,12 @@
 }
 
 @media (max-width: 768px) {
-.class-card__text .p {
-  margin-bottom: 20px;
+  .class-card__text .p {
+    margin: 0;
+    max-width: 260px;
+  }
+.class-card{
+  align-items: center;
 }
+
 }  
