@@ -18,3 +18,6 @@ https://6a046b13315b320e9de85c38--peaceful-cuchufli-37fec4.netlify.app/
 
 
 Joskus laitan myös tämän omistamaani domainiin polydance.fi
+
+## Linkki Figma-tiedostoon:
+https://www.figma.com/design/FFsVDFGzEpufo8rxqf8DJx/Polydance-Ry-sivu?node-id=0-1&t=0Fy4MKxkCtSvvEnH-1 
