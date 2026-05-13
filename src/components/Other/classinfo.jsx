@@ -1,14 +1,16 @@
 import "./classinfo.css";
 
 
-function ClassInfo({ scheduleData, location }) {
+function ClassInfo({ scheduleData, location, date }) {
   return (
     <div className="weekly-schedule">
       <div className="schedule-header">
         <img src="/calendar-icon.svg" alt="Calendar" className="schedule-icon" />
         <h4 className="h2">Weekly Schedule</h4>
       </div>
-      
+      <p className="p-accent" style={{marginBottom: '15px', marginTop: '-10px'}}>
+          {date}
+      </p>
       <div>
         {scheduleData.map((item, index) => (
           <div key={index} className="schedule-row">

@@ -1,7 +1,7 @@
 import PricingSection from "../components/Other/pricing";
 import ClassInfo from "../components/Other/classinfo";
+import BookButton from "../components/Other/bookbutton";
 import JoinButton from "../components/Other/joinbutton";
-import Footer from "../components/navigation/footer";
 
 function ClassesPage() {
   const breakingSchedule = [
@@ -9,9 +9,12 @@ function ClassesPage() {
     { day: "Monday", time: "20.00 - 21.00", level: "Advanced" },
     { day: "Monday", time: "21.00 - 22.00", level: "Open Level" },
   ];
+  const breakingDate = "10-Week Course | Starting September 17th, 2026";
   const contemporarySchedule = [
     { day: "Thursday", time: "16.30 - 18.00", level: "Intermediate" },
   ];
+  const contemporaryDate = "10-Week Course | Starting September 17th, 2026";
+  const webropolLink = "https://link.webropolsurveys.com/S/DC07749A79D3C242";
   return (
     <main>
 
@@ -28,7 +31,7 @@ function ClassesPage() {
         <PricingSection />
       </section>
 
-<section id="breaking" className="class-detail-section">
+      <section id="breaking" className="class-detail-section">
         <div className="class-detail-card">
           <div className="class-detail-image">
             <img src="/teachers-breaking.jpg" alt="Breaking teacher" />
@@ -43,6 +46,7 @@ function ClassesPage() {
             <ClassInfo 
               scheduleData={breakingSchedule}
               location="Multifacility hall - JMT 3C"
+              date={breakingDate}
             />
 
             <div className="what-you-need">
@@ -54,7 +58,7 @@ function ClassesPage() {
               </ul>
             </div>
 
-            <JoinButton text="BOOK YOUR FIRST CLASS" />
+            <BookButton text="BOOK YOUR FIRST CLASS" link={webropolLink} />
           </div>
         </div>
       </section>
@@ -74,6 +78,7 @@ function ClassesPage() {
             <ClassInfo 
               scheduleData={contemporarySchedule}
               location="Multifacility hall - JMT 3C"
+              date={contemporaryDate}
             />
 
             <div className="what-you-need">
@@ -85,11 +90,10 @@ function ClassesPage() {
               </ul>
             </div>
 
-            <JoinButton text="BOOK YOUR FIRST CLASS" />
+            <BookButton text="BOOK YOUR FIRST CLASS" link={webropolLink} />
           </div>
         </div>
       </section>
-    <Footer />
     </main>
     
   )

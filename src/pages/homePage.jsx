@@ -4,7 +4,6 @@ import AccentButton from "../components/Other/accentbutton";
 import WorkshopCard from "../components/Other/workshopcard";
 import BoardCard from "../components/Other/boardcard";
 import ClassCard from "../components/Other/classcard";
-import Footer from "../components/navigation/footer";
 
 function HomePage() {
   return (
@@ -263,10 +262,9 @@ function HomePage() {
       <div className="board-bottom">
           <h1 className="h1">READY TO <br />
             <span style={{ color: '#5FFFC4' }}>ELEVATE?</span></h1>
-          <p className="p">Join our community and unlock your potential</p>
-            <JoinButton text="BOOK YOUR FIRST CLASS" id="/classes#pricing" />
+          <p className="p">Find out what dance style is right for you</p>
+            <JoinButton text="TAKE THE QUIZ" id="/quiz#header" />
       </div>
-      <Footer />
     </main>
   )
 }

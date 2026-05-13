@@ -24,9 +24,9 @@ function PricingSection() {
               Student Rates
             </h3>
 
-            <PricingCard title="1 Class Package" price="50€" />
-            <PricingCard title="2 Classes Package" price="75€"  />
-            <PricingCard title="3 Classes Package" price="90€" />
+            <PricingCard title="1 Course Package" price="50€" />
+            <PricingCard title="2 Courses Package" price="75€"  />
+            <PricingCard title="3 Courses Package" price="90€" />
           </div>
 
           <div className="pricing-column">
@@ -34,9 +34,9 @@ function PricingSection() {
               Non-Student Rates
             </h3>
 
-            <PricingCard title="1 Class Package" price="100€" />
-            <PricingCard title="2 Classes Package" price="150€"  />
-            <PricingCard title="3 Classes Package" price="180€" />
+            <PricingCard title="1 Course Package" price="100€" />
+            <PricingCard title="2 Courses Package" price="150€"  />
+            <PricingCard title="3 Courses Package" price="180€" />
           </div>
 
         </div>

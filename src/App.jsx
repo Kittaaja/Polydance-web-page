@@ -4,6 +4,8 @@ import Navbar from "./components/navigation/navbar";
 import HomePage from "./pages/HomePage";
 import ClassesPage from "./pages/classesPage";
 import EventsPage from "./pages/events";
+import QuizPage from "./pages/quizPage";
+import Footer from "./components/navigation/footer";
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/classes" element={<ClassesPage />} />
         <Route path="/events" element={<EventsPage />} />
+        <Route path="/quiz" element={<QuizPage />} />
       </Routes>
+      <Footer />
     </div>
   )
 }
