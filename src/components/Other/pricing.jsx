@@ -21,7 +21,7 @@ function PricingSection() {
 
           <div className="pricing-column">
             <h3 className="pricing-column__title h3">
-              Student Rates
+              Student Rates*
             </h3>
 
             <PricingCard title="1 Course Package" price="50€" />
@@ -42,7 +42,7 @@ function PricingSection() {
         </div>
 
         <p className="p pricing-note">
-          * Packages are valid for one term (3 months). Student ID required for student rates.
+          *Student ID required for student rates.
         </p>
       </div>
     </section>

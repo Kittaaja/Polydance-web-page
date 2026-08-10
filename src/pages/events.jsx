@@ -15,23 +15,28 @@ function EventsPage() {
         <div className="info-list">
           <h2 className="h2" style={{ color: 'var(--color-accent)', marginBottom: '32px' }} id="info">ANNOUNCEMENTS</h2>
           
-          <InfoCard 
-            date="MAY 7, 2026"
-            title="Summer Intensive Registration Now Open!"
-            text="Join us for an intensive 3-day workshop featuring guest instructors and special sessions. Early bird pricing available until May 15th."
-          />
+        <InfoCard 
+          date="AUGUST 17, 2026"
+          title="Sign up for the Autumn semester is now open!"
+          text="The sign-up for the Autumn semester is now open! Secure your spot now in our classes. First class is always free to try!"
+        />
+        <InfoCard 
+          date="AUGUST 26–27, 2026"
+          title="See us at Otasuunnistus!"
+          text="We'll be participating in Otasuunnistus to promote Polydance. Come and say hi!"
+        />
 
-          <InfoCard 
-            date="APRIL 28, 2026"
-            title="Studio Schedule Update"
-            text="Starting May 1st, we're adding an extra Breaking session on Saturdays at 16:00. Open to all levels!"
-          />
+        <InfoCard 
+          date="SEPTEMBER 1, 2026"
+          title="See us at Aalto Day One!"
+          text="We'll be participating in Aalto Day One to promote Polydance. Come and say hi!"
+        />
 
-          <InfoCard 
-            date="MARCH 20, 2026"
-            title="Spring Jam Photos are up!"
-            text="Check out the gallery for highlights from our last community jam."
-          />
+        <InfoCard 
+          date="SEPTEMBER 12, 2026"
+          title="See you at Otadance!"
+          text="We'll be participating in Otadance on September 12th. Come join us and enjoy the event!"
+        />
         </div>
       </section>
       <section className="workshops-section" id="workshop">
@@ -42,15 +47,50 @@ function EventsPage() {
 
         <div className="workshops-grid">
           <div className="glow"/>
+          
           <WorkshopCard
-            status="upcoming"
-            image="/workshop-afro.jpeg"
-            title="Afro Dance Workshop"
-            date="MAY 20, 2026"
-            teacher="With Pauliina Diallo"
+            image="/event-otadance-26.jpg"
+            title="OtaDance Night"
+            date="SEPTEMBER 12, 2026"
+            teacher="CSSADANCE • Polydance • Aalto Salsa Society • Otanko"
+            description="✨ Finally, OtaDance Night is here again! ✨
+
+            Otaniemi is home to many amazing dance associations — but which one should you join? This annual event brings together CSSADANCE, Polydance, Aalto Salsa Society, and Otanko for an evening of performances, dance, and inspiration!
+
+            From Chinese dance, K-pop, Pole dance, Breaking, Salsa to Bachata — there’s something for everyone!
+
+            📍 WHERE?
+            Aalto Design Factory, Puumiehenkuja 5
+            🗓️ WHEN?
+            12/09/2026, 19:00–21:00
+            🎟️ PRICE?
+            FREE!
+
+            The event is free, but tickets are limited. Secure yours now — and see you there! ✨
+
+            Tickets here
+            Follow CSSADANCE on Instagram here
+            Follow CSSADANCE on Telegram! https://t.me/cssadance
+            See CSSADANCE Youtube videos here
+
+            Questions?
+            communications@cssadance.fi"
           />
           <WorkshopCard
-            status="past"
+            image="/workshop-afro.jpeg"
+            title="West African Dance"
+            date="MAY 19, 2026"
+            teacher="Pauliina Diallo"
+            teacherbio="
+            Pauliina Diallo has been teaching African dance for over 20 years. Her background also includes contemporary and jazz dance, contact improvisation, and various forms of yoga.
+            Pauliina has been involved in numerous productions as a dancer, singer, and producer, and has created several full-length multidisciplinary performances.
+            African dance and music are especially close to her heart, and she has deepened her expertise in Guinea by participating in intensive dance and rhythm courses. She has performed with the Finnish-Guinean group Wonuwali as well as at the Finnish National Theatre, around Finland, and even in China." 
+            description="
+            In this class, you will dance to the rhythms of live drums in a relaxed and welcoming atmosphere – expect grounded movements, joy, sweat, and energy! The movements include bouncing, stomping, jumping, and engaging the whole body.
+            West African dance is fun, energetic, and great for improving fitness, while also being easy to approach – no previous experience is needed."
+            
+          />
+          <WorkshopCard
             image="/workshop-improvisation-class.jpg"
             title="Improvisation Class"
             date="NOVEMBER 7, 2025"
@@ -60,12 +100,11 @@ function EventsPage() {
             images={["/workshop-improvisation-class1.jpeg"]}
           />
           <WorkshopCard
-            status="past"
-            image="/workshop-ravexbreak.jpg"
+            image="/event-ravexbreak.jpg"
             title="Rave x Break"
             date="MAY 18, 2024"
             teacher="DJ Tauko & AaltoDJ"
-            images={["/workshop-ravexbreak1.jpg"]}
+            images={["/event-ravexbreak1.jpg"]}
             description="Brief!
             Open cypher jam where you can freestyle to your hearts content along to music supplied by The Mexican and DJ Tauko who will play beats to keep the energy high. We will also have three Exhibition battles so come along and enjoy the event!
             If you still want more then stay for the after cypher rave which will continue on through the night!
@@ -93,7 +132,6 @@ function EventsPage() {
 
           />
           <WorkshopCard
-            status="past"
             image="/workshop-shuffle.jpg"
             title="Shuffle Workshop"
             date="MARCH 13, 2024"

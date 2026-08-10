@@ -148,6 +148,34 @@ function HomePage() {
         <div className="workshops-grid">
           <div className="glow"/>
           <WorkshopCard
+            image="/event-otadance-26.jpg"
+            title="OtaDance Night"
+            date="SEPTEMBER 12, 2026"
+            teacher="CSSADANCE • Polydance • Aalto Salsa Society • Otanko"
+            description="✨ Finally, OtaDance Night is here again! ✨
+
+            Otaniemi is home to many amazing dance associations — but which one should you join? This annual event brings together CSSADANCE, Polydance, Aalto Salsa Society, and Otanko for an evening of performances, dance, and inspiration!
+
+            From Chinese dance, K-pop, Pole dance, Breaking, Salsa to Bachata — there’s something for everyone!
+
+            📍 WHERE?
+            Aalto Design Factory, Puumiehenkuja 5
+            🗓️ WHEN?
+            12/09/2026, 19:00–21:00
+            🎟️ PRICE?
+            FREE!
+
+            The event is free, but tickets are limited. Secure yours now — and see you there! ✨
+
+            Tickets here
+            Follow CSSADANCE on Instagram here
+            Follow CSSADANCE on Telegram! https://t.me/cssadance
+            See CSSADANCE Youtube videos here
+
+            Questions?
+            communications@cssadance.fi"
+          />
+          <WorkshopCard
             image="/workshop-afro.jpeg"
             title="West African Dance"
             date="MAY 19, 2026"
@@ -171,11 +199,11 @@ function HomePage() {
             images={["/workshop-improvisation-class1.jpeg"]}
           />
           <WorkshopCard
-            image="/workshop-ravexbreak.jpg"
+            image="/event-ravexbreak.jpg"
             title="Rave x Break"
             date="MAY 18, 2024"
             teacher="DJ Tauko & AaltoDJ"
-            images={["/workshop-ravexbreak1.jpg"]}
+            images={["/event-ravexbreak1.jpg"]}
             description="Brief!
             Open cypher jam where you can freestyle to your hearts content along to music supplied by The Mexican and DJ Tauko who will play beats to keep the energy high. We will also have three Exhibition battles so come along and enjoy the event!
             If you still want more then stay for the after cypher rave which will continue on through the night!
@@ -202,18 +230,7 @@ function HomePage() {
             MUSIC– JUNGLE / DUB / DUBSTEP TECHNO"
 
           />
-          <WorkshopCard
-            image="/workshop-shuffle.jpg"
-            title="Shuffle Workshop"
-            date="MARCH 13, 2024"
-            teacher="Julia Piironen"
-            description="Location – The MutliFacility Hall, Jämeräntaival 3A, Otaniemi
-            Workshop Date – 13th of March 2024
-            Time – 21.00-22.00 pm
-            Price – 15€
-
-            Shuffle teacher Julia Piironen will arrive in Otaniemi to give us an introduction to shuffle as a dance style. No matter if you are an experienced dancer or just considering starting a dancing hobby, don’t miss this opportunity! "
-          />
+          
         </div>
 
         <div className="workshops-actions">

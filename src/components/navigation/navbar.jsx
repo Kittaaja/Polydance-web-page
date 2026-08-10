@@ -15,6 +15,9 @@ function Navbar() {
         </HashLink>
 
         <div className="navbar__links">
+          <HashLink to="/events#info" className="navbar__link h4">
+            INFO
+          </HashLink>
           <HashLink to="/#classes" className="navbar__link h4">
             CLASSES
           </HashLink>
@@ -38,6 +41,9 @@ function Navbar() {
         </button>
       </div>
       <div className={`navbar__drawer${open ? " navbar__drawer--open" : ""}`}>
+        <HashLink to="/events#info" className="navbar__drawer-link h4" onClick={() => setOpen(false)}>
+          INFO
+        </HashLink>
         <HashLink to="/#classes" className="navbar__drawer-link h4" onClick={() => setOpen(false)}>
           CLASSES
         </HashLink>

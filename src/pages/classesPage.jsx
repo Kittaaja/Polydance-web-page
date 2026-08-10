@@ -5,15 +5,14 @@ import JoinButton from "../components/Other/joinbutton.jsx";
 
 function ClassesPage() {
   const breakingSchedule = [
-    { day: "Monday", time: "19.00-20.00", level: "Beginners" },
-    { day: "Monday", time: "20.00-21.00", level: "Advanced" },
-    { day: "Monday", time: "21.00-22.00", level: "Open Level" },
+    { day: "Monday", time: "19.15-20.15", level: "Beginners" },
+    { day: "Monday", time: "20.15-21.15", level: "Advanced" },
   ];
-  const breakingDate = "10-Week Course | Starting September 17th, 2026";
+  const breakingDate = "10-Week Course | Starting September 28th, 2026";
   const contemporarySchedule = [
     { day: "Thursday", time: "16.30-18.00", level: "Intermediate" },
   ];
-  const contemporaryDate = "10-Week Course | Starting September 17th, 2026";
+  const contemporaryDate = "10-Week Course | Starting October 1st, 2026";
   const webropolLink = "https://link.webropolsurveys.com/S/DC07749A79D3C242";
   return (
     <main>
@@ -45,7 +44,7 @@ function ClassesPage() {
             </div>
             <ClassInfo 
               scheduleData={breakingSchedule}
-              location="Multifacility hall - JMT 3C"
+              location="Multifacility Hall - JMT 3C"
               date={breakingDate}
             />
 
@@ -77,7 +76,7 @@ function ClassesPage() {
             </div>
             <ClassInfo 
               scheduleData={contemporarySchedule}
-              location="Multifacility hall - JMT 3C"
+              location="Association Room - JMT 1B"
               date={contemporaryDate}
             />
 
