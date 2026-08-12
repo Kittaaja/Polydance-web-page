@@ -18,7 +18,7 @@ function ClassesPage() {
     <main>
 
       <section id="pricing">
-        <div className="pricing-header">
+        <div className="pricing-header reveal">
         <h1 className="h1">
           CLASS <span style={{ color: "#5FFFC4" }}>SCHEDULE</span>
         </h1>
@@ -31,7 +31,7 @@ function ClassesPage() {
       </section>
 
       <section id="breaking" className="class-detail-section">
-        <div className="class-detail-card">
+        <div className="class-detail-card reveal">
           <div className="class-detail-image">
             <img src="/teachers-breaking.jpg" alt="Breaking teacher" />
           </div>
@@ -63,7 +63,7 @@ function ClassesPage() {
       </section>
 
       <section id="contemporary" className="class-detail-section">
-        <div className="class-detail-card">
+        <div className="class-detail-card reveal">
           <div className="class-detail-image">
             <img src="/teachers-contemporary.jpg" alt="Contemporary teacher" />
           </div>

@@ -4,7 +4,7 @@ import "./classcard.css";
 function ClassCard({ image, title, description, id }) {
   return (
     <HashLink to={`/classes#${id}`} className="class-card-link">
-      <article className="class-card">
+      <article className="class-card reveal">
         <div className="class-card__image-wrap">
           <img
             src={image}

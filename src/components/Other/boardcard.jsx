@@ -16,7 +16,7 @@ function BoardCard({ image, name, title, description }) {
 
   return (
     <>
-      <article className="board-card">
+      <article className="board-card reveal">
         <div className="board-card__image-wrap">
           <img
             src={image}

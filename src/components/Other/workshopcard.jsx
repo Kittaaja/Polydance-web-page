@@ -23,7 +23,7 @@ function WorkshopCard({image, title, date, teacher, description, teacherbio, ima
   return (
     <>
       <article
-        className="workshop-card"
+        className="workshop-card reveal"
         role="button"
         tabIndex={0}
         onClick={openModal}

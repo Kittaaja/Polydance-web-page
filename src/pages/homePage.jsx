@@ -10,7 +10,7 @@ function HomePage() {
     <main>
       
       <section id="hero" className="hero-section">
-        <div className="hero-content">
+        <div className="hero-content reveal">
           <p className="p-accent">FROM STUDENTS, TO STUDENTS</p>
             <img src="/logo.png" alt="Logo" className="hero-logo" />
           <p className="h4 hero-headline">
@@ -26,7 +26,7 @@ function HomePage() {
       </section>
 
       <section id="classes" className="classes-section">
-        <div className="classes-header">
+        <div className="classes-header reveal">
           <h1 className="h1">MASTER YOUR <span style={{ color: '#5FFFC4' }}>STYLE</span></h1>
           <p className="p">Move with power. Train with precision. Break boundaries.</p>
         </div>
@@ -58,7 +58,7 @@ function HomePage() {
           </p>
         </div>
 
-        <div className="teacher-card">
+        <div className="teacher-card reveal">
           <div className="teacher-card__image-wrap">
             <img
               src="/teachers-breaking.jpg"
@@ -98,7 +98,7 @@ function HomePage() {
           </div>
         </div>
 
-        <div className="teacher-card">
+        <div className="teacher-card reveal"> 
 
 
           <div className="teacher-card__content">
@@ -140,7 +140,7 @@ function HomePage() {
       </section>
 
       <section id="workshops" className="workshops-section">
-        <div className="workshops-header">
+        <div className="workshops-header reveal">
           <h1 className="h1">WORKSHOPS & <span style={{ color: '#5FFFC4' }}>EVENTS</span></h1>
           <p className="p">Our community in action</p>
         </div>
@@ -239,7 +239,7 @@ function HomePage() {
       </section>
 
       <section id="board" className="board-section">
-        <div className="board-header">
+        <div className="board-header reveal">
           <h1 className="h1">MEET THE <span style={{ color: '#5FFFC4' }}>BOARD</span></h1>
           <p className="p">Driving our community forward</p>
         </div>
@@ -280,7 +280,7 @@ function HomePage() {
         </div>
 
       </section>
-      <div className="board-bottom">
+      <div className="board-bottom reveal">
           <h1 className="h1">READY TO <br />
             <span style={{ color: '#5FFFC4' }}>ELEVATE?</span></h1>
           <p className="p">Find out what dance style is right for you</p>

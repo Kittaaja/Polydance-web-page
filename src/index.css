@@ -459,3 +459,26 @@ body {
     max-width: 90vw;
   }
 }
+
+/* Scroll-reveal utility styles */
+.reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  will-change: opacity, transform;
+  transition: opacity 1500ms cubic-bezier(.12,.84,.25,1), transform 1500ms cubic-bezier(.12,.84,.25,1);
+  /* default delay variable that JS may override */
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    transition: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+}

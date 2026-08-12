@@ -2,7 +2,7 @@ import "./pricing.css";
 
 function PricingCard({ title, price }) {
   return (
-    <div className="pricing-card">
+    <div className="pricing-card reveal">
 
       <span className="h3">{title}</span>
       <span className="pricing-card__price h3">{price}</span>
@@ -14,7 +14,7 @@ function PricingSection() {
   return (
     <section className="pricing-section">
 
-      <div className="pricing-box">
+      <div className="pricing-box reveal">
         <h2 className="h2 pricing-box__title">Package Pricing</h2>
 
         <div className="pricing-grid">

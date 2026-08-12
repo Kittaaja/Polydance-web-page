@@ -13,8 +13,8 @@ function InfoCard({date, title, text}) {
     ? "info-card__status h4 info-card__status--past"
     : "info-card__status h4 info-card__status--new";
   const cardClass = isOld
-    ? "info-card info-card--past"
-    : "info-card";
+    ? "info-card info-card--past reveal"
+    : "info-card reveal";
 
   return (
     <article className={cardClass}>
